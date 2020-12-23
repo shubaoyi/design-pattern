@@ -1,6 +1,6 @@
 package com.byshu.state;
 
-public class StartState implements State {
+public class StartState extends State {
 
     @Override
     public void doAction() {

@@ -1,7 +1,7 @@
 package com.byshu.state;
 
-public interface State {
+public abstract class State {
 
-    void doAction();
+    public abstract void doAction();
 
 }
