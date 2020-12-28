@@ -1,7 +1,7 @@
 package com.byshu.adapter;
 
 
-public class ThreePhaseCharger extends Charger{
+public class ThreePhaseCharger extends Charger {
 
     @Override
     void charge() {
