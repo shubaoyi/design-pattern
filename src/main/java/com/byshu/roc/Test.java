@@ -31,7 +31,7 @@ public class Test {
         Filter logFilter = new LogFilter();
 
         FilterChain chain = new FilterChain();
-        chain.addFilter(logFilter).addFilter(charsetFilter);
+        chain.addFilter(charsetFilter).addFilter(logFilter);
 
         chain.doFilter(new Filter.Request(), new Filter.Response());
     }

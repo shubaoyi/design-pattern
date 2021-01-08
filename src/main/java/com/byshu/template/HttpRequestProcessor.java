@@ -17,10 +17,4 @@ public class HttpRequestProcessor extends ProcessorTemplate {
         System.out.println("send http response..");
     }
 
-    public static void main(String[] args) {
-        ProcessorTemplate p1 = new HttpRequestProcessor();
-        ProcessorTemplate p2 = new FtpRequestProcessor();
-        p1.process();
-        p2.process();
-    }
 }
